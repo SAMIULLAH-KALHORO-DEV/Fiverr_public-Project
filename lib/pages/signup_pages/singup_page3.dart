@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hiiiiiiiiiiiiiiii/pages/signup_pages/signup_page4.dart';
 
 import '../../constants/colors.dart';
 import '../../constants/sizes.dart';
@@ -68,7 +69,7 @@ class SignUpPage3 extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const SignUpPage3(),
+                          builder: (context) => const SignUpPage4(),
                         ));
                   },
                   style: ElevatedButton.styleFrom(

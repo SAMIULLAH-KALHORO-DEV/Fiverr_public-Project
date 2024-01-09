@@ -25,3 +25,12 @@ const String page2step1 = "Step 2 of 3";
 const String page3title = "Your Information";
 const String textfieldp2 = "Your Full name";
 const String textfieldp3 = "Phone Number";
+
+// signup page 4 strings
+
+const String page3step = "Step 3 of 3";
+const String page4title = "Create an Account";
+const String page4complition = "Complete your details below";
+const String textfieldp4 = "Email";
+const String textfieldp5 = "Password";
+const String textfieldp6 = "Repeat Password";
