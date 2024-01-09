@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../constants/colors.dart';
 import '../constants/sizes.dart';
-import '../constants/text_strings.dart';
+// import '../constants/text_strings.dart';
 
 class ModelButton extends StatelessWidget {
   const ModelButton({

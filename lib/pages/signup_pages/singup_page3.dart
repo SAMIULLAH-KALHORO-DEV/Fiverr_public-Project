@@ -32,51 +32,53 @@ class SignUpPage3 extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
-        child: Column(
-          children: [
-            Text(
-              textAlign: TextAlign.center,
-              page2step1,
-              style: h2Textstyle,
-            ),
-            Slider(
-              activeColor: signUpButtoncolor2,
-              inactiveColor: Colors.transparent,
-              // thumbColor: Colors.transparent,
-
-              value: 0.66,
-              onChanged: (value) {
-                value;
-              },
-            ),
-            Text(
-              page3title,
-              style: h1Textstyle,
-            ),
-            SizedBox(height: 30),
-            const TextFiledContainer(
-              textfield: textfieldp2,
-            ),
-            const TextFiledContainer(
-              textfield: textfieldp3,
-            ),
-            SizedBox(height: 20),
-            SizedBox(
-              width: MediaQuery.of(context).size.width - 50,
-              height: 50,
-              child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => const SignUpPage4(),
-                        ));
-                  },
-                  style: ElevatedButton.styleFrom(
-                      backgroundColor: signUpButtoncolor2),
-                  child: const Text(page2buttontext)),
-            ),
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              const      Text(
+                textAlign: TextAlign.center,
+                page2step1,
+                style: h2Textstyle,
+              ),
+              Slider(
+                activeColor: signUpButtoncolor2,
+                inactiveColor: Colors.transparent,
+                // thumbColor: Colors.transparent,
+        
+                value: 0.66,
+                onChanged: (value) {
+                  value;
+                },
+              ),
+              const      Text(
+                page3title,
+                style: h1Textstyle,
+              ),
+               const     SizedBox(height: 30),
+              const TextFiledContainer(
+                textfield: textfieldp2,
+              ),
+              const TextFiledContainer(
+                textfield: textfieldp3,
+              ),
+             const       SizedBox(height: 20),
+              SizedBox(
+                width: MediaQuery.of(context).size.width - 50,
+                height: 50,
+                child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const SignUpPage4(),
+                          ));
+                    },
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor: signUpButtoncolor2),
+                    child: const Text(page2buttontext)),
+              ),
+            ],
+          ),
         ),
       ),
     );

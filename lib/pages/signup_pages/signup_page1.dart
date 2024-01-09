@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hiiiiiiiiiiiiiiii/constants/sizes.dart';
+// import 'package:hiiiiiiiiiiiiiiii/constants/sizes.dart';
 import 'package:hiiiiiiiiiiiiiiii/constants/text_strings.dart';
 import 'package:hiiiiiiiiiiiiiiii/pages/signup_pages/signup_page2.dart';
 
@@ -28,13 +28,13 @@ class SignUpPage1 extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-          Text('You are a'),
+        const  Text('You are a'),
           InkWell(
             onTap: () {
               Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => SignUpPage2(),
+                    builder: (context) => const SignUpPage2(),
                   ));
             },
             child: const SignUpbutton_widget(
@@ -47,7 +47,7 @@ class SignUpPage1 extends StatelessWidget {
               Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => SignUpPage2(),
+                    builder: (context) =>const SignUpPage2(),
                   ));
             },
             child: const SignUpbutton_widget(
