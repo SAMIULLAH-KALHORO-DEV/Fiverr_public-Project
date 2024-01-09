@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      themeMode: ThemeMode.system,
       debugShowCheckedModeBanner: true,
       home: SignUpPage1(),
       // home: SignUpPage2(),
