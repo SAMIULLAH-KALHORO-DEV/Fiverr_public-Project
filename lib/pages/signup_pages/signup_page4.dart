@@ -37,7 +37,7 @@ class SignUpPage4 extends StatelessWidget {
           children: [
             Text(
               textAlign: TextAlign.center,
-              page2step1,
+              page3step,
               style: h2Textstyle,
             ),
             Slider(
@@ -51,15 +51,19 @@ class SignUpPage4 extends StatelessWidget {
               },
             ),
             Text(
-              page3title,
+              page4title,
               style: h1Textstyle,
             ),
-            SizedBox(height: 30),
+            const Text(page4complition),
+            const SizedBox(height: 30),
             const TextFiledContainer(
-              textfield: textfieldp2,
+              textfield: textfieldp4,
             ),
             const TextFiledContainer(
-              textfield: textfieldp3,
+              textfield: textfieldp5,
+            ),
+            const TextFiledContainer(
+              textfield: textfieldp6,
             ),
             SizedBox(height: 20),
             SizedBox(
