@@ -59,6 +59,7 @@ class SignUpPage3 extends StatelessWidget {
             const TextFiledContainer(
               textfield: textfieldp3,
             ),
+            SizedBox(height: 20),
             SizedBox(
               width: MediaQuery.of(context).size.width - 50,
               height: 50,
@@ -71,8 +72,6 @@ class SignUpPage3 extends StatelessWidget {
                         ));
                   },
                   style: ElevatedButton.styleFrom(
-                      shape: CircleBorder(
-                          side: BorderSide(style: BorderStyle.solid)),
                       backgroundColor: signUpButtoncolor2),
                   child: const Text(page2buttontext)),
             ),
