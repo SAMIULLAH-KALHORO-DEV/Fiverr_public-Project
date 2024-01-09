@@ -34,3 +34,15 @@ const String page4complition = "Complete your details below";
 const String textfieldp4 = "Email";
 const String textfieldp5 = "Password";
 const String textfieldp6 = "Repeat Password";
+
+// signin strings
+
+const String signinTitle = "Vista Concepts";
+const String signinHelp = "Sign in with your email and password";
+const String signintextfield1 = "Email or Username";
+const String signintextfield2 = "Password";
+const String signinButtontext = "SIGN IN";
+
+const String signinForgetPassword = "Forget Password?";
+const String signinAlreadyaccount = "Don't have any account?";
+const String signinSignup = "Sign UP";

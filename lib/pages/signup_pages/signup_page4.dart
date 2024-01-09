@@ -6,6 +6,7 @@ import '../../constants/colors.dart';
 import '../../constants/sizes.dart';
 import '../../constants/text_strings.dart';
 import '../../widgets/textfieldcontainer.dart';
+import '../signin/signinpage.dart';
 
 class SignUpPage4 extends StatelessWidget {
   const SignUpPage4({super.key});
@@ -74,7 +75,7 @@ class SignUpPage4 extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const SignUpPage1(),
+                          builder: (context) => const SignInPage(),
                         ));
                   },
                   style: ElevatedButton.styleFrom(
