@@ -57,7 +57,7 @@ class SignInPage extends StatelessWidget {
                     },
                     style: ElevatedButton.styleFrom(
                         backgroundColor: signUpButtoncolor2),
-                    child: Text(
+                    child:const Text(
                       signinButtontext,
                       style: TextStyle(fontSize: 20),
                     )),
@@ -80,7 +80,8 @@ class SignInPage extends StatelessWidget {
                         style: TextStyle(color: signUpButtoncolor2),
                       )),
                 ],
-              )
+              ),
+              const SizedBox(height: 10),
             ]),
       ),
     );
