@@ -32,14 +32,14 @@ class SignInPage extends StatelessWidget {
               children: [
                 const SizedBox(height: 10),
                 Container(
-                  height: 100,
-                  width: 100,
+                  height: 110,
+                  width: 110,
                   // color: Colors.red,
                   child: const FlutterLogo(
                     textColor: signUpH2color,
                   ),
                 ),
-                const SizedBox(height: 20),
+                const SizedBox(height: 22),
 
                 Text(
                   signinTitle,
